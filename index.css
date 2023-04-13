@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.input-btn {
+    display: block;
+}
+
+.time-section {
+    display: inline-block;
+    margin: 3vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 801px) {
+    .count {
+        font-size: 5rem;
+    }
+    .units {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 801px) {
+    .count {
+        font-size: 3rem;
+    }
+    .units {
+        font-size: 1.2rem;
+    }
+}
+
+.count {
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+}
+
+.units {
+    color: rgb(234, 180, 73);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 0.6vw;
+    margin-inline: 2vw;
+    font-size: 1rem;
+    width: 10rem;
+    display: block;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: rgb(234, 180, 73);
+}
+
+.input {
+    padding: 0.6vw;
+    margin-inline: 2vw;
+    font-size: 1rem;
+    display: block;
+    width: 16rem;
+}
+
+.input-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
