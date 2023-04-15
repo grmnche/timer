@@ -19,7 +19,6 @@ buttonStartEl.addEventListener('click', () => {
   
     interval = setInterval(createTimerAnimator, 1000)
     inputEl.value = ''
-    inputEl.placeholder = 'The countdown is on...'
 }
 )
 
@@ -76,10 +75,6 @@ function createTimerAnimator() {
         if(hours < 1) {
             hours = 0
             hoursEl.innerText = '0' + hours
-        }
-
-        if(hours < 1, minutes < 1, seconds < 1) {
-            inputEl.placeholder = 'The countdown is over...'
         }
 
         time--
